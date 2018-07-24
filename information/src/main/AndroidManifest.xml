@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+    <uses-permission android:name="android.permission.INTERNET"/>  //允许访问网络
+
+    <application android:allowBackup="true"
+        android:icon="@drawable/t"
+        android:label="FUN"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NewsDetailActivity"/>
+        <activity android:name=".DailyActivity"/>
+        <activity android:name=".MovieActivity"/>
+        <activity android:name=".MovieDetailActivity"/>
+        <activity android:name=".MusicActivity"/>
+        <activity android:name=".RankDetailActivity"/>
+        <activity android:name=".CmovieActivity"/>
+        <activity android:name=".SongDetailActivity"/>
+        <activity android:name=".BookActivity"/>
+        <activity android:name=".BookDetailActivity"/>
+
+    </application>
+
+</manifest>
